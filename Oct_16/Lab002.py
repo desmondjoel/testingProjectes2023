@@ -9,7 +9,9 @@
 # Output = Leap year
 
 year=int(input("Please enter the year\n"))
-if year%4 ==0:
-    print( "is a leap year \n")
+if year%4 ==0 and year%100!=0:
+    print(year, "is a leap year \n")
+elif year%400==0:
+    print(year, "is a leap year \n")
 else:
     print("Not a leap year")
