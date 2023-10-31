@@ -1,4 +1,4 @@
-for i in  range(1,100):
-    print(i)
-    if(i==51):
+for i in range(1, 100):
+    if (i == 51):
         break
+    print(i)
