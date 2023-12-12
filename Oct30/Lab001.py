@@ -10,3 +10,4 @@ print(result1)
 
 result2=set1.intersection(set2)
 print(result2)
+
